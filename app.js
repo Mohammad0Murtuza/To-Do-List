@@ -23,7 +23,10 @@ addForm.addEventListener('submit', function(e) {
         document.getElementById("item").value="";
     } else {
         msg.textContent="Atleast Enter One Character";
-        setTimeout(() => {msg.textContent=""}, 1000);
+        setTimeout(() => {
+            msg.textContent="";
+            msg.setAttribute("placeholder","Enter")
+        }, 1000);
     }
 })
 
