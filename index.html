@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="main-heading">To Do List</h1>
+        <input type="text" placeholder="Search To Do Here" id="searchInput" />
+      </div>
+      <form action="" id="form" class="form">
+        <input type="text" placeholder="Enter ToDo" id="name" class="addTodo" />
+        <input type="submit" value="Add To Do" class="btn" />
+      </form>
+      <ul id="listUl"></ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
