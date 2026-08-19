@@ -2,4 +2,4 @@
 A Task Manipulating Web App 
 
 
-Link => https://todolistmurtuza.netlify.app/
+Link => https://mohammad0murtuza.github.io/To-Do-List/
